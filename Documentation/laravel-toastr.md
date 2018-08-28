@@ -49,3 +49,10 @@ Toastr()->info('message', 'title', ['options']);
 ```PHP
 Toastr::success('Messages in here', 'Title', ["positionClass" => "toast-top-center"]);
 ```
+
+### Try this
+```PHP
+Route::get('/', function() {
+  Toastr::success('Hey there!', 'Welcome', ["positionClass" => "toast-top-center"]);
+});
+```
