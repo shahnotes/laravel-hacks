@@ -1,4 +1,4 @@
 # laravel-hacks
 
 1. Laravel Toastr
-2. VS Code Settings For Laravel
+2. VS Code Setup For Laravel
