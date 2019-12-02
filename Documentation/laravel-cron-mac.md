@@ -12,7 +12,7 @@ env EDITOR=nano crontab -e
 * * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
 ```
 
-### Step 4: Add scheduler in laravel project
+### Step 3: Add scheduler in laravel project
 
 ```PHP
 $schedule->call(function() {
@@ -20,4 +20,4 @@ $schedule->call(function() {
 })->everyMinute();
 ```
 
-### Step 5: Check laravel log file in every minute
+### Step 4: Check laravel log file in every minute
